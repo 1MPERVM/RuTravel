@@ -1,0 +1,15 @@
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\bin\Debug\net6.0\RuTravel.Application.deps.json
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\bin\Debug\net6.0\RuTravel.Application.dll
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\bin\Debug\net6.0\RuTravel.Application.pdb
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\bin\Debug\net6.0\RuTravel.Domain.dll
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\bin\Debug\net6.0\RuTravel.Domain.pdb
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\obj\Debug\net6.0\RuTravel.Application.csproj.AssemblyReference.cache
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\obj\Debug\net6.0\RuTravel.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\obj\Debug\net6.0\RuTravel.Application.AssemblyInfoInputs.cache
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\obj\Debug\net6.0\RuTravel.Application.AssemblyInfo.cs
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\obj\Debug\net6.0\RuTravel.Application.csproj.CoreCompileInputs.cache
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\obj\Debug\net6.0\RuTravel.Application.csproj.CopyComplete
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\obj\Debug\net6.0\RuTravel.Application.dll
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\obj\Debug\net6.0\refint\RuTravel.Application.dll
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\obj\Debug\net6.0\RuTravel.Application.pdb
+C:\Users\Impervm\source\repos\RuTravel\RuTravel.Application\obj\Debug\net6.0\ref\RuTravel.Application.dll
