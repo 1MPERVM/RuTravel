@@ -15,9 +15,7 @@ namespace RuTravel.Domain
 
         public string Description { get; set; } = null!;
 
-        [ForeignKey("Photos")]
-        public int PhotosRefId { get; set; }
-        public Photos? Photos { get; set; }
+        public ICollection<Photos>? Photos { get; set; }
         public ICollection<Users>? Users{ get; set; }
         public ICollection<Flats>? Flats{ get; set; }
         public ICollection<Cafes>? Cafes { get; set; }

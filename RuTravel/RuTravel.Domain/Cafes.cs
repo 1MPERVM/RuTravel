@@ -21,16 +21,12 @@ namespace RuTravel.Domain
         public string ClosingTime { get; set; } = null!;
 
         [ForeignKey("Towns")]
-        public int TownsRefID { get; set; }
+        public int? TownsRefID { get; set; }
         public Towns? Towns { get; set; }
         public double Rating { get; set; }
 
-        [ForeignKey("Comments")]
-        public int CommentsRefId { get; set; }
-        public Comments? Comments { get; set; }
+        public ICollection<Comments>? Comments { get; set; }
 
-        [ForeignKey("Photos")]
-        public int PhotosRefId { get; set; }
-        public Photos? Photos { get; set; }
+        public ICollection<Photos>? Photos { get; set; }
     }
 }

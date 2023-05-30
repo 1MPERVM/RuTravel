@@ -15,10 +15,19 @@ namespace RuTravel.Domain
         public DateTime Date { get; set; }
 
         [ForeignKey("Users")]
-        public int UsersRefId { get; set; }
+        public int? UsersRefId { get; set; }
         public Users? Users { get; set; }
-        public ICollection<Flats>? Flats { get; set; }
-        public ICollection<Cafes>? Cafes { get; set; }
-        public ICollection<Sights>? Sights { get; set; }
+
+        [ForeignKey("Flats")]
+        public int? FlatsRefId { get; set; }
+        public Flats? Flats { get; set; }
+
+        [ForeignKey("Cafes")]
+        public int? CafesRefId { get; set; }
+        public Cafes? Cafes { get; set; }
+
+        [ForeignKey("Sights")]
+        public int? SightsRefId { get; set; }
+        public Sights? Sights { get; set; }
     }
 }

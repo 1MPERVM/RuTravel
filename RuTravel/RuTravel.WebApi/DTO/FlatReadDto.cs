@@ -22,9 +22,6 @@ namespace RuTravel.WebApi.DTO
 
         public double Rating { get; set; }
 
-        public int? PhotosRefId { get; set; }
-        public int? CommentsRefId { get; set; }
-
 
     }
 }

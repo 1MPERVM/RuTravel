@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RuTravel.Domain
 {
@@ -11,11 +11,28 @@ namespace RuTravel.Domain
         public string Name { get; set; } = null!;
 
         public string Photo { get; set; } = null!;
-        public ICollection<Users>? Users { get; set; }
-        public ICollection<Flats>? Flats { get; set; }
-        public ICollection<Cafes>? Cafes { get; set; }
-        public ICollection<Sights>? Sights { get; set; }
-        public ICollection<Towns>? Towns { get; set; }
-        public ICollection<Posts>? Posts { get; set; }
+        [ForeignKey("Users")]
+        public int? UsersRefId { get; set; }
+        public Users? Users { get; set; }
+
+        [ForeignKey("Flats")]
+        public int? FlatsRefId { get; set; }
+        public Flats? Flats { get; set; }
+
+        [ForeignKey("Cafes")]
+        public int? CafesRefId { get; set; }
+        public Cafes? Cafes { get; set; }
+
+        [ForeignKey("Sights")]
+        public int? SightsRefId { get; set; }
+        public Sights? Sights { get; set; }
+
+        [ForeignKey("Towns")]
+        public int? TownsRefId { get; set; }
+        public Towns? Towns { get; set; }
+
+        [ForeignKey("Posts")]
+        public int? PostsRefId { get; set; }
+        public Posts? Posts { get; set; }
     }
 }

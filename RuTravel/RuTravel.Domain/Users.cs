@@ -28,12 +28,10 @@ namespace RuTravel.Domain
         public double Rating { get; set; }
 
         [ForeignKey("Towns")]
-        public int TownsRefID { get; set; }
+        public int? TownsRefID { get; set; }
         public Towns? Towns { get; set; }
 
-        [ForeignKey("Photos")]
-        public int PhotosRefId { get; set; }
-        public Photos? Photos { get; set; }
+        public ICollection<Photos>? Photos { get; set; }
 
         public ICollection<Comments>? Comments { get; set; }
         public ICollection<Flats>? Flats { get; set; }

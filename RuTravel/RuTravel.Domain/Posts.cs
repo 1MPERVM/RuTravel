@@ -14,11 +14,10 @@ namespace RuTravel.Domain
         [MaxLength(250)]
         public string Text { get; set; } = null!;
 
-        [ForeignKey("Photos")]
-        public int PhotosRefId { get; set; }
-        public Photos? Photos { get; set; }
+        public ICollection<Photos>? Photos { get; set; }
+
         [ForeignKey("Users")]
-        public int UsersId { get; set; }
+        public int? UsersId { get; set; }
         public Users? Users { get; set; }
         public DateTime Date { get; set; }
 

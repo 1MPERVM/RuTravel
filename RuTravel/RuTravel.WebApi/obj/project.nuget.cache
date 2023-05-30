@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zm/9phaKLiBxzfLfmuvz9gCRH8APq3+Ro7W5NDroaKzxOzAG2X4f4SYpjqqPadhoOirrBWrBgZMTYCP0tiQs8g==",
+  "dgSpecHash": "v21PEYsipowxMwNinF8KxiUtzl+wpC+wRc2SqVRog+zTQtMDhbPoT+xHZZMgC10r97B7r130OJQ5JCjfxWYcww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.WebApi\\RuTravel.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.WebApi\\RuTravel.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Impervm\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Impervm\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

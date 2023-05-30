@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.WebApi\\RuTravel.WebApi.csproj": {}
+    "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.WebApi\\RuTravel.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Application\\RuTravel.Application.csproj": {
+    "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Application\\RuTravel.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Application\\RuTravel.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Application\\RuTravel.Application.csproj",
         "projectName": "RuTravel.Application",
-        "projectPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Application\\RuTravel.Application.csproj",
+        "projectPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Application\\RuTravel.Application.csproj",
         "packagesPath": "C:\\Users\\Impervm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Application\\obj\\",
+        "outputPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj": {
-                "projectPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj"
+              "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj": {
+                "projectPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj": {
+    "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj",
         "projectName": "RuTravel.Domain",
-        "projectPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj",
+        "projectPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj",
         "packagesPath": "C:\\Users\\Impervm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj": {
+    "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj",
         "projectName": "RuTravel.Persistence",
-        "projectPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj",
+        "projectPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj",
         "packagesPath": "C:\\Users\\Impervm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -157,8 +157,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Application\\RuTravel.Application.csproj": {
-                "projectPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Application\\RuTravel.Application.csproj"
+              "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Application\\RuTravel.Application.csproj": {
+                "projectPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Application\\RuTravel.Application.csproj"
               }
             }
           }
@@ -204,14 +204,14 @@
         }
       }
     },
-    "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.WebApi\\RuTravel.WebApi.csproj": {
+    "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.WebApi\\RuTravel.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.WebApi\\RuTravel.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.WebApi\\RuTravel.WebApi.csproj",
         "projectName": "RuTravel.WebApi",
-        "projectPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.WebApi\\RuTravel.WebApi.csproj",
+        "projectPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.WebApi\\RuTravel.WebApi.csproj",
         "packagesPath": "C:\\Users\\Impervm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -233,8 +233,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj"
+              "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj"
               }
             }
           }

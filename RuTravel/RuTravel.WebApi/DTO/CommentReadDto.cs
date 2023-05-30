@@ -8,5 +8,9 @@ namespace RuTravel.WebApi.DTO
         public string Text { get; set; } = null!;
         public DateTime Date { get; set; }
         public int? UsersRefId { get; set; }
+        public int? FlatsRefId { get; set; }
+        public int? CafesRefId { get; set; }
+        public int? SightsRefId { get; set; }
+
     }
 }

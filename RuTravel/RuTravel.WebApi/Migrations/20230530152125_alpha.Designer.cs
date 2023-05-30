@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RuTravel.Persistence;
 
@@ -11,9 +12,11 @@ using RuTravel.Persistence;
 namespace RuTravel.WebApi.Migrations
 {
     [DbContext(typeof(RuTravelDBContext))]
-    partial class RuTravelDBContextModelSnapshot : ModelSnapshot
+    [Migration("20230530152125_alpha")]
+    partial class alpha
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -53,7 +56,7 @@ namespace RuTravel.WebApi.Migrations
                         .HasMaxLength(250)
                         .HasColumnType("nvarchar(250)");
 
-                    b.Property<int?>("TownsRefID")
+                    b.Property<int>("TownsRefID")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -71,16 +74,16 @@ namespace RuTravel.WebApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("CafesRefId")
+                    b.Property<int>("CafesRefId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("FlatsRefId")
+                    b.Property<int>("FlatsRefId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("SightsRefId")
+                    b.Property<int>("SightsRefId")
                         .HasColumnType("int");
 
                     b.Property<string>("Text")
@@ -88,7 +91,7 @@ namespace RuTravel.WebApi.Migrations
                         .HasMaxLength(250)
                         .HasColumnType("nvarchar(250)");
 
-                    b.Property<int?>("UsersRefId")
+                    b.Property<int>("UsersRefId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -134,7 +137,7 @@ namespace RuTravel.WebApi.Migrations
                     b.Property<double>("Rating")
                         .HasColumnType("float");
 
-                    b.Property<int?>("TownsRefID")
+                    b.Property<int>("TownsRefID")
                         .HasColumnType("int");
 
                     b.Property<int?>("UsersId")
@@ -157,10 +160,10 @@ namespace RuTravel.WebApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("CafesRefId")
+                    b.Property<int>("CafesRefId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("FlatsRefId")
+                    b.Property<int>("FlatsRefId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -172,16 +175,16 @@ namespace RuTravel.WebApi.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("PostsRefId")
+                    b.Property<int>("PostsRefId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("SightsRefId")
+                    b.Property<int>("SightsRefId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("TownsRefId")
+                    b.Property<int>("TownsRefId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UsersRefId")
+                    b.Property<int>("UsersRefId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -222,7 +225,7 @@ namespace RuTravel.WebApi.Migrations
                         .HasMaxLength(250)
                         .HasColumnType("nvarchar(250)");
 
-                    b.Property<int?>("UsersId")
+                    b.Property<int>("UsersId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -253,7 +256,7 @@ namespace RuTravel.WebApi.Migrations
                         .HasMaxLength(250)
                         .HasColumnType("nvarchar(250)");
 
-                    b.Property<int?>("TownsRefID")
+                    b.Property<int>("TownsRefID")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -327,7 +330,7 @@ namespace RuTravel.WebApi.Migrations
                         .HasMaxLength(250)
                         .HasColumnType("nvarchar(250)");
 
-                    b.Property<int?>("TownsRefID")
+                    b.Property<int>("TownsRefID")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -341,7 +344,9 @@ namespace RuTravel.WebApi.Migrations
                 {
                     b.HasOne("RuTravel.Domain.Towns", "Towns")
                         .WithMany("Cafes")
-                        .HasForeignKey("TownsRefID");
+                        .HasForeignKey("TownsRefID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Towns");
                 });
@@ -350,19 +355,27 @@ namespace RuTravel.WebApi.Migrations
                 {
                     b.HasOne("RuTravel.Domain.Cafes", "Cafes")
                         .WithMany("Comments")
-                        .HasForeignKey("CafesRefId");
+                        .HasForeignKey("CafesRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("RuTravel.Domain.Flats", "Flats")
                         .WithMany("Comments")
-                        .HasForeignKey("FlatsRefId");
+                        .HasForeignKey("FlatsRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("RuTravel.Domain.Sights", "Sights")
                         .WithMany("Comments")
-                        .HasForeignKey("SightsRefId");
+                        .HasForeignKey("SightsRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("RuTravel.Domain.Users", "Users")
                         .WithMany("Comments")
-                        .HasForeignKey("UsersRefId");
+                        .HasForeignKey("UsersRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Cafes");
 
@@ -377,7 +390,9 @@ namespace RuTravel.WebApi.Migrations
                 {
                     b.HasOne("RuTravel.Domain.Towns", "Towns")
                         .WithMany("Flats")
-                        .HasForeignKey("TownsRefID");
+                        .HasForeignKey("TownsRefID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("RuTravel.Domain.Users", null)
                         .WithMany("Flats")
@@ -390,27 +405,39 @@ namespace RuTravel.WebApi.Migrations
                 {
                     b.HasOne("RuTravel.Domain.Cafes", "Cafes")
                         .WithMany("Photos")
-                        .HasForeignKey("CafesRefId");
+                        .HasForeignKey("CafesRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("RuTravel.Domain.Flats", "Flats")
                         .WithMany("Photos")
-                        .HasForeignKey("FlatsRefId");
+                        .HasForeignKey("FlatsRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("RuTravel.Domain.Posts", "Posts")
                         .WithMany("Photos")
-                        .HasForeignKey("PostsRefId");
+                        .HasForeignKey("PostsRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("RuTravel.Domain.Sights", "Sights")
                         .WithMany("Photos")
-                        .HasForeignKey("SightsRefId");
+                        .HasForeignKey("SightsRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("RuTravel.Domain.Towns", "Towns")
                         .WithMany("Photos")
-                        .HasForeignKey("TownsRefId");
+                        .HasForeignKey("TownsRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("RuTravel.Domain.Users", "Users")
                         .WithMany("Photos")
-                        .HasForeignKey("UsersRefId");
+                        .HasForeignKey("UsersRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Cafes");
 
@@ -429,7 +456,9 @@ namespace RuTravel.WebApi.Migrations
                 {
                     b.HasOne("RuTravel.Domain.Users", "Users")
                         .WithMany("Posts")
-                        .HasForeignKey("UsersId");
+                        .HasForeignKey("UsersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Users");
                 });
@@ -438,7 +467,9 @@ namespace RuTravel.WebApi.Migrations
                 {
                     b.HasOne("RuTravel.Domain.Towns", "Towns")
                         .WithMany("Sights")
-                        .HasForeignKey("TownsRefID");
+                        .HasForeignKey("TownsRefID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Towns");
                 });
@@ -447,7 +478,9 @@ namespace RuTravel.WebApi.Migrations
                 {
                     b.HasOne("RuTravel.Domain.Towns", "Towns")
                         .WithMany("Users")
-                        .HasForeignKey("TownsRefID");
+                        .HasForeignKey("TownsRefID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Towns");
                 });

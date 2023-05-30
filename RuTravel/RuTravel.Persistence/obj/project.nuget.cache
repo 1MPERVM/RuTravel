@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PqjlN1QIJx/QX8cJmcsgkMixkLg+wv7qt1XAf0ON362wCKtNRwpOPuFM8OyEmSvlIUVhE0+M4QGJsPdIiPRs/A==",
+  "dgSpecHash": "eZ6l4FFRYuF7wCUJKgHJLdGKfyOLOdog6BmR0h18zCULuqNUsQ/zS048zlTa1eoieoFjCffjomMDgscIRwLqtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Persistence\\RuTravel.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Impervm\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Impervm\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -10,10 +10,9 @@ namespace RuTravel.WebApi.DTO
         [Required]
         [MaxLength(250)]
         public string Address { get; set; } = null!;
-        public int TownsRefID { get; set; }
+        public int? TownsRefID { get; set; }
         [Required]
         public double Rating { get; set; }
-        public int? CommentsRefId { get; set; }
-        public int? PhotosRefId { get; set; }
+
     }
 }

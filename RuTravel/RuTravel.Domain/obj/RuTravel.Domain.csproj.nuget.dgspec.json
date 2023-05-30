@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj": {}
+    "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj": {
+    "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj",
         "projectName": "RuTravel.Domain",
-        "projectPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj",
+        "projectPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Domain\\RuTravel.Domain.csproj",
         "packagesPath": "C:\\Users\\Impervm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Impervm\\source\\repos\\RuTravel\\RuTravel.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Impervm\\Desktop\\Git\\RuTravel\\RuTravel\\RuTravel.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

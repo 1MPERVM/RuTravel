@@ -10,3 +10,15 @@ C:\Users\Impervm\source\repos\RuTravel\RuTravel.Domain\obj\Debug\net6.0\RuTravel
 C:\Users\Impervm\source\repos\RuTravel\RuTravel.Domain\obj\Debug\net6.0\refint\RuTravel.Domain.dll
 C:\Users\Impervm\source\repos\RuTravel\RuTravel.Domain\obj\Debug\net6.0\RuTravel.Domain.pdb
 C:\Users\Impervm\source\repos\RuTravel\RuTravel.Domain\obj\Debug\net6.0\ref\RuTravel.Domain.dll
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\bin\Debug\net6.0\RuTravel.Domain.deps.json
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\bin\Debug\net6.0\RuTravel.Domain.dll
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\bin\Debug\net6.0\RuTravel.Domain.pdb
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\obj\Debug\net6.0\RuTravel.Domain.csproj.AssemblyReference.cache
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\obj\Debug\net6.0\RuTravel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\obj\Debug\net6.0\RuTravel.Domain.AssemblyInfoInputs.cache
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\obj\Debug\net6.0\RuTravel.Domain.AssemblyInfo.cs
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\obj\Debug\net6.0\RuTravel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\obj\Debug\net6.0\RuTravel.Domain.dll
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\obj\Debug\net6.0\refint\RuTravel.Domain.dll
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\obj\Debug\net6.0\RuTravel.Domain.pdb
+C:\Users\Impervm\Desktop\Git\RuTravel\RuTravel\RuTravel.Domain\obj\Debug\net6.0\ref\RuTravel.Domain.dll
