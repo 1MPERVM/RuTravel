@@ -10,7 +10,7 @@ namespace RuTravel.Domain
         [MaxLength(250)]
         public string Name { get; set; } = null!;
 
-        public string Photo { get; set; } = null!;
+        public byte[] Photo { get; set; } = null!;
         [ForeignKey("Users")]
         public int? UsersRefId { get; set; }
         public Users? Users { get; set; }

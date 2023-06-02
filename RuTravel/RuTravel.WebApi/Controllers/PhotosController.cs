@@ -21,7 +21,7 @@ namespace RuTravel.WebApi.Controllers
         public async Task<ActionResult<IEnumerable<PhotoReadDto>>> GetAllPhotos()
         {
             var photos = await _photosRepo.GetAllPhotos();
-            return Ok(_mapper.Map<PhotoReadDto>(photos));
+            return Ok(_mapper.Map<IEnumerable<PhotoReadDto>>(photos));
         }
 
         [HttpGet("{id}", Name = "GetPhotoById")]

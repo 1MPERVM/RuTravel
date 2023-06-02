@@ -22,7 +22,7 @@ namespace RuTravel.WebApi.Controllers
         public async Task<ActionResult<IEnumerable<UserReadDto>>> GetAllUsers()
         {
             var users = await _usersRepo.GetAllUsersAsync();
-            return Ok(_mapper.Map<UserReadDto>(users));
+            return Ok(_mapper.Map<IEnumerable<UserReadDto>>(users));
         }
 
         [HttpGet("{id}", Name = "GetUserById")]

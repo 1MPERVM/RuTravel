@@ -21,7 +21,7 @@ namespace RuTravel.WebApi.Controllers
         public async Task<ActionResult<IEnumerable<FlatReadDto>>> GetAllFlats()
         {
             var flats = await _flatsRepo.GetAllFlatsAsync();
-            return Ok(_mapper.Map<FlatReadDto>(flats));
+            return Ok(_mapper.Map<IEnumerable<FlatReadDto>>(flats));
         }
 
         [HttpGet("{id}", Name = "GetFlatById")]

@@ -9,7 +9,7 @@ namespace RuTravel.WebApi.DTO
         [MaxLength(250)]
         public string Name { get; set; } = null!;
         [Required]
-        public string Photo { get; set; } = null!;
+        public byte[] Photo { get; set; } = null!;
         [ForeignKey("Users")]
         public int? UsersRefId { get; set; }
         [ForeignKey("Flats")]

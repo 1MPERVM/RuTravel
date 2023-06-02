@@ -20,7 +20,7 @@ namespace RuTravel.WebApi.Controllers
         public async Task<ActionResult<IEnumerable<CommentReadDto>>> GetAllComments()
         {
             var comments = await _commentsRepo.GetAllCommentsAsync();
-            return Ok(_mapper.Map<CommentReadDto>(comments));
+            return Ok(_mapper.Map<IEnumerable<CommentReadDto>>(comments));
         }
 
         [HttpPost]

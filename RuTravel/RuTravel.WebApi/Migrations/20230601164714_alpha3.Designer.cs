@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RuTravel.Persistence;
 
@@ -11,9 +12,11 @@ using RuTravel.Persistence;
 namespace RuTravel.WebApi.Migrations
 {
     [DbContext(typeof(RuTravelDBContext))]
-    partial class RuTravelDBContextModelSnapshot : ModelSnapshot
+    [Migration("20230601164714_alpha3")]
+    partial class alpha3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

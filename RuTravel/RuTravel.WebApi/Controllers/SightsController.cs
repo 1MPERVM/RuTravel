@@ -21,7 +21,7 @@ namespace RuTravel.WebApi.Controllers
         public async Task<ActionResult<IEnumerable<SightReadDto>>> GetAllSights()
         {
             var sights = await _sightsRepo.GetAllSightsAsync();
-            return Ok(_mapper.Map<SightReadDto>(sights));
+            return Ok(_mapper.Map<IEnumerable<SightReadDto>>(sights));
         }
 
         [HttpGet("{id}", Name = "GetSightById")]

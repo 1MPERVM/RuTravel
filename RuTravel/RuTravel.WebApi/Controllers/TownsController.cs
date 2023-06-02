@@ -21,7 +21,7 @@ namespace RuTravel.WebApi.Controllers
         public async Task<ActionResult<IEnumerable<TownReadDto>>> GetAllTowns()
         {
             var towns = await _townsRepo.GetAllTownsAsync();
-            return Ok(_mapper.Map<TownReadDto>(towns));
+            return Ok(_mapper.Map<IEnumerable<TownReadDto>>(towns));
         }
 
         [HttpGet("{id}", Name = "GetTownById")]
