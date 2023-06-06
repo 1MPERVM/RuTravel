@@ -37,8 +37,19 @@ namespace RuTravel.WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> CreatePhoto(PhotoCreateDto photo)
+        public async Task<ActionResult> CreatePhoto(PhotoCreateDto photo,List<IFormFile> Photo)
         {
+            foreach (var item in Photo)
+            {
+                if (item.Length > 0)
+                {
+                    using (var stream = new MemoryStream())
+                    {
+                        await item.CopyToAsync(stream);
+                        photo.Photo = stream.ToArray();
+                    }
+                }
+            }
             var photoModel = _mapper.Map<Photos>(photo);
             _photosRepo.CreatePhotoAsync(photoModel);
             _photosRepo.SaveChangesAsync();
